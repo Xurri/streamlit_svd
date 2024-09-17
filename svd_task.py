@@ -8,10 +8,10 @@ from sklearn.pipeline import Pipeline
 from skimage import io
 import streamlit as st
 
-url = 'https://avatars.mds.yandex.net/i?id=2695191a6a6c85c2c8d65bf6ae492e37_l-5234389-images-thumbs&n=13'
+# url = 'https://avatars.mds.yandex.net/i?id=2695191a6a6c85c2c8d65bf6ae492e37_l-5234389-images-thumbs&n=13'
 
-image = io.imread(url)[:, :, 0]
-plt.imshow(image, cmap='gray')
+# image = io.imread(url)[:, :, 0]
+# plt.imshow(image, cmap='gray')
 
 # загрузка файла
 st.title('SVD')
